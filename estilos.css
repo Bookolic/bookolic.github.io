@@ -23,7 +23,7 @@ header{
 }
 .lector{
 	width:22%;
-	min-width:140px;
+	min-width:240px;
 	float:left;
 	margin:5% 0 0 0;
 	background:#FFFFFF;
@@ -34,7 +34,7 @@ header{
 }
 .escritor{
 	width:18%;
-	min-width:100px;
+	min-width:200px;
 	float:right;
 	margin:0 5% 0 0;
 	background:#FFFFFF;
@@ -54,7 +54,7 @@ header{
 }
 .logo{
 	width:29%;
-	min-width:150px;
+	min-width:250px;
 	display:block;
 	margin:auto auto;
 	border:1px solid;
@@ -73,7 +73,7 @@ header{
 }
 .mecenas{
 	width:19%;
-	min-width:100px;
+	min-width:200px;
 	margin:0 0 0 10%;
 	float:left;
 	background:#FFFFFF;
@@ -84,7 +84,7 @@ header{
 }
 .editorial{
 	width:27%;
-	min-width:130px;
+	min-width:230px;
 	float:right;
 	background:#FFFFFF;
 	border:1px solid;
