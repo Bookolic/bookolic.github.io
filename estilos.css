@@ -1,0 +1,176 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body {
+background:#F6FCED;
+}
+
+header{
+	width:95%;
+	max-width:1200px;
+	margin:1% auto 0 auto;
+}
+.prencabezado{
+	width:95%;
+	max-width:670px;
+	height:32%;
+	margin:auto;
+	padding:0;
+	display:block;
+	min-height:200px
+}
+.biblioteca{
+	width:22%;
+	min-width:100px;
+	float:left;
+	margin:5% 0 0 0;
+	background:#FFFFFF;
+	border:1px solid;
+	border-color:green;
+	border-radius:50%;
+	
+}
+.blog{
+	width:18%;
+	min-width:100px;
+	float:right;
+	margin:0 5% 0 0;
+	background:#FFFFFF;
+	border:1px solid;
+	border-color:green;;
+	border-radius:50%;
+	
+}
+.encabezado{
+	width:65%;
+	max-width:800px;
+	height:30%;
+	margin:auto;
+	padding:0;
+	display:block;
+	min-height:220px
+}
+.logo{
+	width:29%;
+	min-width:150px;
+	display:block;
+	margin:auto auto;
+	border:1px solid;
+	border-color:black;
+	border-radius:50%;
+	opacity:0.7;
+	background:#B3DF96;
+}
+.postcabezado{
+	width:95%;
+	max-width:670px;
+	height:30%;
+	margin:auto;
+	padding:0;
+	display:block;
+}
+.servicios{
+	width:19%;
+	min-width:100px;
+	margin:0 0 0 10%;
+	float:left;
+	background:#FFFFFF;
+	border:1px solid;
+	border-color:green;
+	border-radius:50%;
+	
+}
+.editorial{
+	width:27%;
+	min-width:130px;
+	float:right;
+	background:#FFFFFF;
+	border:1px solid;
+	border-color:green;;
+	border-radius:50%;
+	
+}
+
+@media screen and (max-width:900px){
+	.logo{
+			width:33%;
+	}
+}
+@media screen and (max-width:800px){
+	.biblioteca{
+			width:33%;
+	}
+	.blog{
+			width:23%;
+	}
+	.logo{
+			width:45%
+	}
+	.servicios{
+			width:23%;
+	}
+	.editorial{
+			width:33%;
+	}
+}
+
+@media screen and (max-width:600px){
+	.biblioteca{
+			width:43%;
+	}
+	.blog{
+			width:33%;
+	}
+	.logo{
+			width:50%
+	}
+	.servicios{
+			width:33%;
+	}
+	.editorial{
+			width:43%;
+	}
+}
+
+@media screen and (max-width:350px){
+	.biblioteca{
+			width:53%;
+	}
+	.blog{
+			width:43%;
+	}
+	.logo{
+			width:35%
+	}
+	.servicios{
+			width:40%;
+	}
+	.editorial{
+			width:50%;
+	}
+	.encabezado{
+		height:40%;
+	}
+}
+@media screen and (max-width:300px){
+	.biblioteca{
+			width:53%;
+	}
+	.blog{
+			width:43%;
+	}
+	.logo{
+			width:35%
+	}
+	.servicios{
+			width:43%;
+	}
+	.editorial{
+			width:53%;
+	}
+	.encabezado{
+		height:25%;
+	}
+}
